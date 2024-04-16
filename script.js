@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 
 const greet = document.querySelector('#greeting')
 const clock = document.querySelector('#clock')
@@ -8,16 +8,20 @@ const image = document.querySelector('.sub-container img')
 setInterval(() => {
 
     const currentTime = new Date()
-    const currentHours = currentTime.getHours()
+    const currentHours = (currentTime.getHours())
     const currentMinutes = currentTime.getMinutes()
     const currentSeconds = currentTime.getSeconds()
 
     const period = (currentHours >= 12 ? 'PM' : 'AM')
-    const hours = ((currentHours + 11) % 12 + 1)
-    const time = (`${hours}:${currentMinutes}:${currentSeconds} ${period}`)
 
+    const hours = String(((currentHours + 11) % 12 + 1)).padStart(2, 0)
+    const minutes = String(currentMinutes).padStart(2, 0)
+    const seconds = String(currentSeconds).padStart(2, 0)
+
+    const time = (`${hours}:${minutes}:${seconds} ${period}`)
     clock.innerHTML = (`Current time: ${time}`)
 
+    
     if (period == 'AM') {
         if (hours >= 1) {
             night()
