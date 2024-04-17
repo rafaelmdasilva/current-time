@@ -4,15 +4,15 @@ A simple clock built with HTML, CSS and JavaScript.
 
 ### Features
 
-- Displays the system time on a 12h format, followed by a greet.
-- Changes the page color, greet and image accordingly.
+- Displays the system time on a 12h format, followed by a greet
+- Changes the page elements accordingly
 
 ### To-Do
 
-- ~~Display minutes and seconds.~~
-- ~~Have the clock run in real time.~~
-- Have a 24h/12h toggle.
-- Responsive design.
+- ~~Display minutes and seconds~~
+- ~~Have the clock run in real time~~
+- Have a 24h/12h toggle
+- Responsive design
 - Further code optimization
 
 ### Live Demo
@@ -23,4 +23,4 @@ A simple clock built with HTML, CSS and JavaScript.
 
 ### Contributions
 
-- Feel free to make any suggestions by creating an issue.
+Feel free to make any suggestions by creating an issue.
