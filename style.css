@@ -1,90 +1,95 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-    padding: 0;
-    margin: 0;
-    font-family: "Roboto Condensed", sans-serif;
-    user-select: none;
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+	user-select: none;
 }
 
 #main {
-    color: white;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    height: 100vh;
-    text-transform: capitalize;
-    justify-content: center;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	height: 100vh;
+	text-transform: capitalize;
+	justify-content: center;
 }
 
 #box {
-    background-color: white;
-    color: rgb(51, 51, 51);
-    width: 450px;
-    border-radius: 10px;
-    box-shadow: 0 10px 20px black;
-    padding: 10px;
-    transform: translateY(-50px);
+	background-color: white;
+	color: rgb(51, 51, 51);
+	width: 450px;
+	border-radius: 10px;
+	box-shadow: 0 10px 20px black;
+	padding: 10px;
+	transform: translateY(-50px);
 }
 
 #box img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
 }
 
 #button {
-    font-size: 16px;
-    font-weight: bold;
-    color: rgba(51, 51, 51);
-    background-color: white;
-    position: absolute;
-    top: 2%;
-    left: 90%;
-    width: 40px;
-    height: 40px;
-    border-radius: 10px;
-    border: none;
-    cursor: pointer;
+	font-size: 18px;
+	font-weight: bold;
+	background-color: white;
+	/* position: absolute; */
+	/* top: 2%; */
+	/* left: 90%; */
+	width: 450px;
+	height: 40px;
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
 }
 
 .pushIn {
-    box-shadow: inset 0 0 2px 1px;
+	color: rgba(133, 133, 133, 0.6);
+	box-shadow: inset 0 0 1px 1px rgb(51, 51, 51);
 }
 
 .pushOut {
-    box-shadow: 0 1px 2px 1px;
+	color: rgba(133, 133, 133, 0.6);
+	box-shadow: 0 1px 1px 1px rgb(51, 51, 51);
 }
 
 #attribution {
-    font-size: 12px;
+	font-size: 12px;
 }
 
 #attribution a {
-    color: blue;
-    text-decoration: none;
+	color: blue;
+	text-decoration: none;
 }
 
 #attribution img {
-    margin-left: 5px;
-    margin-top: 5px;
-    max-width: 12px;
-    max-height: 12px;
+	margin-left: 5px;
+	margin-top: 5px;
+	max-width: 12px;
+	max-height: 12px;
 }
 
 .scaleDown {
-    animation: scaleDown 0.2s;
+	animation: scaleDown 0.2s;
 }
 
 .scaleUp {
-    animation: scaleUp 0.2s;
+	animation: scaleUp 0.2s;
 }
 
 @keyframes scaleDown {
-    50% {scale: 0.8}
+	50% {
+		scale: 0.8;
+	}
 }
 
 @keyframes scaleUp {
-    50% {scale: 1.1}
+	50% {
+		scale: 1.1;
+	}
 }
