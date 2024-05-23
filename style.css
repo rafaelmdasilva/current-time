@@ -25,7 +25,6 @@ body {
 	border-radius: 10px;
 	box-shadow: 0 10px 20px black;
 	padding: 10px;
-	transform: translateY(-50px);
 }
 
 #box img {
@@ -38,9 +37,6 @@ body {
 	font-size: 18px;
 	font-weight: bold;
 	background-color: white;
-	/* position: absolute; */
-	/* top: 2%; */
-	/* left: 90%; */
 	width: 450px;
 	height: 40px;
 	border-radius: 10px;
