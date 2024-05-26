@@ -1,6 +1,6 @@
 ## Current Time
 
-A simple clock built with HTML, CSS and JavaScript.
+Shows the system time on a 12h format with a toggle button for 24h, followed by a greet, changing the page elements accordingly
 
 ### Features
 
