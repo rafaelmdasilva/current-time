@@ -1,6 +1,6 @@
 ## Current Time
 
-Shows the system time on a 12h format with a toggle button for 24h, followed by a greet, changing the page elements accordingly
+A simple digital clock, shows the system time on a 12h format with a 24h toggle button, followed by a greet, changing the page elements accordingly.
 
 ### Features
 
